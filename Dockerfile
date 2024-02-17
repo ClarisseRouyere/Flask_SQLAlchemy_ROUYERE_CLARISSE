@@ -4,7 +4,6 @@ COPY requirements.txt requirements.txt
 RUN pip install -r requirements.txt
 
 COPY src/ /app/src
-ENV FLASK_APP=/app/src/chambres_disponibles
-
+ENV FLASK_APP=/app/src/Hotel
 
 ENTRYPOINT [ "tail", "-f", "/dev/null" ]

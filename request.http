@@ -1,0 +1,8 @@
+POST http://localhost:5000//api/chambres
+Content-Type: application/json
+
+{
+  "numero": "101",
+  "type": "simple",
+  "prix": 50.00
+}
