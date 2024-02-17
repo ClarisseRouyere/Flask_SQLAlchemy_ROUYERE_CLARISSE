@@ -1,4 +1,4 @@
-POST http://localhost:5000//api/chambres
+POST http://localhost:5000/api/chambres
 Content-Type: application/json
 
 {
